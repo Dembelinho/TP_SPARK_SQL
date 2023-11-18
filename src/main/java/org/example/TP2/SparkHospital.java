@@ -54,5 +54,4 @@ public class SparkHospital {
         // Afficher les résultats
         patCountByMed.show(); //exe6
     }
-
 }
