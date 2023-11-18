@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67069e34-f865-45d2-800b-30232143ebb9" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Application1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Application2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/models/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TP2/SparkHospital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/incidents.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/prod.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/products.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TP1/Exercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TP1/Exercise1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TP1/Exercise1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TP1/Exercise1_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,28 +35,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
-    "database.data.extractors.current.id": "Comma-separated (CSV)_id",
-    "last_opened_file_path": "C:/Work/Big Data/TP_SPARK_SQL",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;database.data.extractors.current.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Work/Big Data/TP_SPARK_SQL&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Work\Big Data\untitled\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application2">
+  <component name="RunManager" selected="Application.SparkHospital">
     <configuration name="Application1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Application1" />
       <module name="untitled" />
@@ -115,14 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+    <configuration name="SparkHospital" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TP2.SparkHospital" />
       <module name="untitled" />
       <option name="VM_PARAMETERS" value="--add-exports=java.base/sun.nio.ch=ALL-UNNAMED" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.TP2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,19 +128,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.SparkHospital" />
       <item itemvalue="Application.Application2" />
       <item itemvalue="Application.Application1" />
       <item itemvalue="Application.Exercise1_2" />
       <item itemvalue="Application.Exercise1" />
-      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SparkHospital" />
         <item itemvalue="Application.Application2" />
         <item itemvalue="Application.Application1" />
         <item itemvalue="Application.Exercise1_2" />
         <item itemvalue="Application.Exercise1" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +154,8 @@
       <updated>1700210116364</updated>
       <workItem from="1700210117442" duration="4597000" />
       <workItem from="1700218977937" duration="1562000" />
-      <workItem from="1700251188769" duration="7139000" />
+      <workItem from="1700251188769" duration="7273000" />
+      <workItem from="1700309700322" duration="3761000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1700220522748</created>
@@ -166,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700220522748</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit">
+      <created>1700259056763</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700259056763</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

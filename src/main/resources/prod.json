@@ -1,0 +1,5 @@
+[{"name": "ProDesk","price":1650 ,"quantity":15 },
+  {"name": "EliteBook","price":2850 ,"quantity":30 },
+  {"name": "MacBook","price":4800 ,"quantity":20 },
+  {"name": "DELL","price":3800 ,"quantity":10 }
+]

@@ -1,0 +1,31 @@
+Id,titre,description,service,date
+1,Network Outage,Experiencing network connectivity issues in Service A,IT,2023-01-15
+2,Server Downtime,Several servers in Service B are down,IT,2023-02-28
+3,Data Loss,Critical data loss incident in Service A,Data Management,2023-03-12
+4,Equipment Failure,Equipment failure in Service C affecting production,Production,2023-04-05
+5,Security Breach,Security breach detected in Service B,Security,2023-05-20
+6,Software Bug,Service A experiencing issues due to a software bug,IT,2023-06-08
+7,Power Outage,Power outage impacting Service C operations,Facilities,2023-07-17
+8,Application Error,Service B users encountering application errors,IT,2023-08-04
+9,Data Corruption,Data corruption incident in Service A,Data Management,2023-09-22
+10,Service Disruption,Service C facing disruptions in functionality,Production,2023-10-11
+11,Hardware Failure,Hardware failure in Service B affecting performance,IT,2023-11-30
+12,Database Outage,Service A experiencing a database outage,Data Management,2023-12-18
+13,System Crash,Service C system crash impacting operations,Production,2024-01-07
+14,Phishing Attack,Phishing attack detected in Service B,Security,2024-02-14
+15,Data Backup Failure,Failure in data backup system for Service A,Data Management,2024-03-25
+16,Application Crash,Service C application crash affecting users,IT,2024-04-19
+17,Service Unavailability,Service B facing unavailability issues,IT,2024-05-02
+18,Database Slowdown,Service A experiencing database slowdown,Data Management,2024-06-15
+19,Network Security Threat,Security threat detected in Service C network,Security,2024-07-08
+20,User Authentication Issue,Service B users facing authentication issues,IT,2024-08-23
+21,Data Processing Error,Data processing error in Service A,Data Management,2024-09-10
+22,Infrastructure Failure,Infrastructure failure in Service C,Production,2024-10-27
+23,Software Update Problem,Service B facing issues after a software update,IT,2024-11-14
+24,Service Interruption,Service A experiencing interruptions,Production,2024-12-03
+25,Unauthorized Access,Unauthorized access detected in Service C,Security,2025-01-20
+26,Network Outage,Another network outage in Service A,IT,2023-01-15
+27,Security Breach,Another security breach detected in Service B,Security,2023-05-20
+28,Hardware Failure,Another hardware failure in Service B affecting performance,IT,2023-11-30
+29,Data Corruption,Another data corruption incident in Service A,Data Management,2023-09-22
+30,Data Loss,Another critical data loss incident in Service A,Data Management,2023-03-12
